@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(19, 20, 37);
+  color: rgb(255, 255, 255);
+  min-height: 100vh;
+}
+.scoreboard {
+  font-family: cursive;
+  background-color: ;
+}
+.startt {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 1px solid #71b1de;
+  box-shadow: 0 2px 2px #590483;
+}
+.donee {
+  border: 1.5px solid rgb(32, 212, 212);
+  border-radius: 0.7rem;
+  font-weight: 550px;
+}
+.donee:hover {
+  color: #eee;
+  background-color: rgb(8, 8, 94);
+  font-weight: 750;
+}
+.startt:hover {
+  color: rgb(255, 255, 255);
+  background-color: #084c7c;
+  font-weight: 700;
+}
+.correct {
+  color: rgb(43, 222, 43);
+}
+.incorrect {
+  color: rgba(255, 0, 0, 0.797);
+  text-decoration: underline;
+}
+.titlee {
+  font-family: "Bree Serif", serif;
+  letter-spacing: 0.2rem;
+ 
+}
+
+#para {
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to right, #233e8e, #082f7ed5, #24368a);
+  color: rgb(239, 229, 229);
+  letter-spacing: 0.04rem;
+  position: relative;
+  resize: none;
+  border: rgb(1, 1, 26);
+  box-shadow: 5px 0 20px rgb(194, 194, 255);
+}
+ul li {
+  background-image: linear-gradient(to right, #2d2d8c, #3271c5, #39468b);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500px;
+}
+.endd {
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(163, 170, 171, 0.82);
+  color: rgb(7, 7, 58);
+  opacity: 1;
+  display: none;
+}
+.overlay-inner {
+  margin-top: 200px;
+}
+body.overlay-is-open .main-ui {
+  filter: blur(4px);
+}
+.answer  {
+  display: none;
+
+}
+.randomParagraphGenerated {
+  
+  padding:0.4rem ;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;;
+  
+}
+
+#typingSpeed,
+#typingAccuracy {
+  color: #3786cd;
+}
+.speed {
+  display: none;
+}
+#paragraphInput {
+  width: 100%;
+  padding: 0.4rem;
+  min-height: 8rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid rgb(13, 99, 99);
+  outline: hidden;
+}
+#paragraphInput:focus {
+  outline: hidden;
+  border: 1.5px solid rgb(18, 17, 17);
+  border-radius: 0.5rem;
+}
+@media screen and (max-width: 400px) {
+  #para {
+    border-radius: 3%;
+    letter-spacing: 0rem;
+    font-size: 13px;
+  }
+  .endd,
+  #wpm {
+    font-size: 1rem;
+  }
+  .titlee {
+    font-size: 26px;
+  }
+}
+
+div.randomParagraphGenerated {
+  background-color: rgba(5, 44, 85, 0.856);
+}
+
+.btn.donee.text-center {
+  color: #ffffff;
+}
+.btn.donee {
+  background-color: #14b06f;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+body {
+  background-color: black;
+}
+
+.title {
+  font-family: "Cairo";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+h1 {
+  /* background-image: url(https://media.giphy.com/media/l2SqcmBJxk04qUYrC/giphy.gif); */
+  background-image: url("gif.webp");
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 10px 0;
+}
+
+
+.main-ui{
+ transform:scaleY(1.2)
+}
+
